@@ -1,0 +1,89 @@
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+  background-color:hsl(0, 0%, 5%) !important; 
+  max-height: 100%;
+ 
+}
+
+.movies{
+  width: fit-content; 
+  margin:10px;
+  display:flex;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  
+}
+
+img{
+  
+  width:300px;
+  height:350px;
+  border:rgb(214, 56, 56) 3px solid;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 0 0 red; 
+  cursor:pointer;
+  padding:10px;
+  box-shadow: rgba(174, 174, 193, 0.25) 0px 30px 60px -12px inset, rgba(247, 243, 243, 0.3) 0px 18px 36px -18px inset;
+  transition: transform 0.8s;
+  margin-left:20px ;
+}
+
+img:hover {
+   transform: scale(1.2) rotate(2deg);
+  
+}
+input{
+
+  width: 40%;
+  height: 50px;
+  border:3px solid #9c1b1b;
+   border-radius:9999px; 
+  margin-left:28%;
+  margin-top:20px ;
+  margin-bottom:20px ;
+  text-align: center;
+  font-size:1em ;
+}
+/* #bouton{
+  width: 10%;
+  height:30px ;
+  color:#f9f2f2;
+  background-color: #ef4e4e;
+  border-radius:9999px ;
+  margin-left: 10px;
+  font-size: 1vmax;
+
+} */
+#btn{
+  width: 10%;
+  height:30px ;
+  background-color: rgb(174, 62, 62);
+  border-radius:9999px ;
+  margin-left: 10px;
+  font-size: 1vmax;
+  
+}
+
+   
+h1,h2,h3,h4 {
+ color: aliceblue;
+  font-weight:500;
+  font-size: 1.2rem;
+  text-align: center;
+  margin:20px;
+}
+li{
+  margin:20px;
+  list-style: none;
+  
+}
+
+
